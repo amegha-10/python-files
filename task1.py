@@ -13,11 +13,11 @@ def print_calendar_with_calendar_module():
 
 '''
 OUTPUT
+PART 1 :  USING CALENDER MODULE
 
 Enter month (1-12): 6
 Enter year: 2025
 
-== Part 1: Calendar using calendar module ==
      June 2025
 Mo Tu We Th Fr Sa Su
                    1
@@ -49,17 +49,21 @@ def print_calendar_with_datetime_module():
 
     for day in range(1, num_days + 1):
         print(f"{day:2} ", end="")
-        if (start_weekday + day - 1) % 7 == 6:  # FIXED: adjusted line break logic
+        if (start_weekday + day - 1) % 7 == 6:  
             print()
     print()
 
-# Main execution
-if __name__ == "__main__":  # FIXED: corrected __name__ check
+
+if __name__ == "__main__":  
     print_calendar_with_calendar_module()
     print_calendar_with_datetime_module()
 
 '''
 OUTPUT :
+PART 2 :  USING DATETIME MODULE
+
+Enter month (1-12): 6
+Enter year: 2025
 
 Mo Tu We Th Fr Sa Su
                    1 
