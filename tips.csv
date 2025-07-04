@@ -1,0 +1,15 @@
+total_bill,tip,sex,day,time,size
+16.99,1.01,Female,Sun,Dinner,2
+10.34,1.66,Male,Sun,Dinner,3
+21.01,3.50,Male,Sun,Dinner,3
+23.68,3.31,Male,Sun,Dinner,2
+24.59,3.61,Female,Sun,Dinner,4
+15.42,2.00,Female,Mon,Lunch,2
+18.29,2.71,Male,Mon,Lunch,2
+22.23,3.00,Female,Tue,Dinner,2
+19.81,2.50,Female,Tue,Lunch,3
+25.00,4.00,Male,Fri,Dinner,4
+17.89,2.50,Female,Fri,Lunch,2
+30.50,5.00,Male,Sat,Dinner,5
+12.34,1.25,Female,Sat,Lunch,2
+28.75,4.50,Female,Sun,Dinner,3
